@@ -1,0 +1,32 @@
+{
+  "name": "BZLib",
+  "version": "0.1.0",
+  "summary": "A short description of BZLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/twisturn/BZLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "twisturn": "huangqi@lycam.tv"
+  },
+  "source": {
+    "git": "https://github.com/twisturn/BZLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BZLib/Classes/**/*",
+  "public_header_files": "BZLib/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}
